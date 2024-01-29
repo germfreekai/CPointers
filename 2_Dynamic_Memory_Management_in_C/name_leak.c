@@ -11,6 +11,7 @@
 
 int main (void)
 {
+    // Name plus the \0 char
     char *name = (char*) malloc(strlen("Susan")+1);
     strcpy(name, "Susan");
     while (*name != 0)
